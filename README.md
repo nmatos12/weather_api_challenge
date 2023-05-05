@@ -14,6 +14,8 @@ HTML, CSS, Bootstraps, OpenWeather Api, JavaScript, and JQuery
 
 ## Demos
 
+[Weather Dashboard Link](https://nmatos12.github.io/weather_dashboard_challenge/)
+
 Links below provide a functionality of webpage.
 
 ![Image showing functionality of the Weather Dashboard](assets/images/Weather_Dashboard.png)
