@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+:root {
+    --font_family: 'Roboto', sans-serif;
+}
+
+/* RESETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font_family);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(13,1,36);
+    background: linear-gradient(270deg, rgba(13,1,36,1) 0%, rgba(9,9,121,1) 35%, rgb(8, 113, 155) 100%);
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+    color: #cbcdcf;
+}
+
+body {
+    background-color: #e4e2e2;
+}
+
+/* Left Side */
+.recent-searches h2, label {
+    font-size: 1.2rem;
+}
+
+.cityList {
+    margin-top: 20px;
+}
+
+.city {
+    padding: 10px;
+}
+
+.cityName {
+    color: black;   
+}
+
+#search-btn, .city-btn {
+    padding: 5px 50px;
+    background-color: #253950de;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Weather Data */
+.currentWeather {
+    margin-bottom: 20px;
+    padding: 0px 20px !important;
+    border: outset 2px #2e2e2e9d;
+}
+
+.currentWeather h2, .currentWeather h3 {
+    font-size: 1.3rem;
+    margin: 10px 10px 10px 0px;
+}
+
+.fiveDay {
+    padding: 0px 20px 0px 0px !important;
+}
+
+.fiveDay h2 {
+    font-size: 1.2rem;
+}
+
+.fiveDay p {
+    font-size: .8rem;
+}
+
+.fiveDay p.card-title {
+    font-weight: bold;
+    color: white;
+}
+
+.card-container {
+    margin-right: 20px;
+}
+
+.card {
+    background-color: #253950;
+}
+
+.text-muted {
+    color: white !important;
+}
